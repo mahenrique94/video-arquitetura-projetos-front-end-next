@@ -1,5 +1,5 @@
-import { Dashboard } from "./containers/dashboard.container";
+import { DashboardContainer } from "./containers/dashboard.container";
 
 export const routes = {
-  DASHBOARD: Dashboard
+  DASHBOARD: DashboardContainer
 }

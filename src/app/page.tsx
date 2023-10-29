@@ -1,1 +1,5 @@
-export { Dashboard as default } from '../subdomains/home/containers/dashboard.container'
+import { routes } from '../subdomains/home/routes'
+
+export default function Page() {
+  return <routes.DASHBOARD />
+}
